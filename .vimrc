@@ -1,3 +1,20 @@
+" .vimrc
+" Author: Rob Mason <robm@librem.one>
+" Source: [ http://github.com/necr0mancer ]
+"
+" Always changing 😎️
+
+"{{{ Basic options
+" -----------------------------------------------------------------------------
+
+set encoding=utf-8
+set list
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
+set laststatus=2
+
+" -----------------------------------------------------------------------------
+"}}}
+
 "{{{ Looks
 " -----------------------------------------------------------------------------
 
@@ -61,7 +78,7 @@ call plug#end()
 "}}}
 
 colorscheme nord
-set laststatus=2
+" set laststatus=2
 " set number
 
 let g:lightline = {
